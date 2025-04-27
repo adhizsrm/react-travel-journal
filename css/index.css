@@ -1,0 +1,25 @@
+html,body{
+    margin:0;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F55A5A;
+    color: #ffffff;
+    height: 40px;
+    padding: 10px 0px;
+}
+
+header >  img {
+    height: 24px;
+    width: 24px;
+    margin-right: 5px;
+}
+
+header > span {
+    font-size: 14.75px;
+    font-weight: medium;
+}
