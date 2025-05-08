@@ -6,7 +6,7 @@ export default function App() {
         return(
             <>
                 <Entry 
-                    id={element.id} 
+                    key={element.id}
                     {...element}
                 />
             </>
